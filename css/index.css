@@ -1,0 +1,26 @@
+.inicio{
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/img/13.webp");
+    background-position: center;
+    background-size: cover;
+    height:30rem;  
+    }
+.navbar-brand{
+    font-family: 1.2rem;
+    color:blue;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: blue;
+}
+.card-text{
+    color: 1B2866;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    color: D1D3E0;
+}
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
