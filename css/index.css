@@ -24,3 +24,66 @@
 .card-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.navbar-brand{
+    font-family: ;
+}
+.gorras1{
+    .card{
+        width: 18rem;
+        background-color: blue;
+        .card-title{
+         font-size: 1.5rem;
+         color: cadetblue;
+        }
+         
+     }
+     .card-text{
+         font-size: 0.9rem;
+         color: black;
+     }
+
+}
+
+.cards{
+background-color: gray;
+width: 20rem;
+.cards-title{
+    font-size: 1.5rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+}
+.cards-text{
+    font-size: 0.9rem;
+    color: black;
+}
+.mochilas1{
+    .card{
+        width: 18rem;
+        background-color: orange;
+        .card-title{
+         font-size: 1.5rem;
+         color: red;
+        }
+         
+     }
+     .card-text{
+         font-size: 0.9rem;
+         color: black;
+     }
+}
+.mochilas2{
+    .card{
+        width: 18rem;
+        background-color: gray;
+        .card-title{
+         font-size: 1.5rem;
+         color: cadetblue;
+        }
+         
+     }
+     .card-text{
+         font-size: 0.9rem;
+         color: black;
+     }
+}
