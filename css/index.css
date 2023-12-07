@@ -1,114 +1,112 @@
-.inicio{
-    --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/Imagen.webp");
-    background-position: center;
-    background-size: cover;
-    height:30rem;  
+.inicio {
+  --opacidad-negro: 0.5;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, var(--opacidad-negro)),
+      rgba(0, 0, 0, var(--opacidad-negro))
+    ),
+    url("../img/Imagen.webp");
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.navbar-brand {
+  font-family: 1.2rem;
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+.card-text {
+  color: 1B2866;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.btn {
+  color: D1D3E0;
+}
+.card-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navbar-brand {
+  font-family: "Courier New", Courier, monospace;
+}
+.gorras1 {
+  .card {
+    width: 18rem;
+    background-color: grey;
+    .card-title {
+      font-size: 1.5rem;
+      color: white;
     }
-.navbar-brand{
-    font-family: 1.2rem;
-    color:black;
-}
-.nav-link{
-    margin-right: 10px;
-    margin-left: 10px;
-    color: blue;
-}
-.card-text{
-    color: 1B2866;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.btn{
-    color: D1D3E0;
-}
-.card-title{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.navbar-brand{
-    font-family: ;
-}
-.gorras1{
-    .card{
-        width: 18rem;
-        background-color: grey;
-        .card-title{
-         font-size: 1.5rem;
-         color: white;
-        }
-         
-     }
-     .card-text{
-         font-size: 0.9rem;
-         color: white;
-     }
-
-}
-.gorras2{
-    .card{
-        width: 18rem;
-        background-color: grey;
-        .card-title{
-         font-size: 1.5rem;
-         color: cadetblue;
-        }
-         
-     }
-     .card-text{
-         font-size: 0.9rem;
-         color: black;
-     }
-
-}
-.cards{
-background-color: gray;
-width: 20rem;
-.cards-title{
-    font-size: 1.5rem;
+  }
+  .card-text {
+    font-size: 0.9rem;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif
+  }
 }
-}
-.cards-text{
+.gorras2 {
+  .card {
+    width: 18rem;
+    background-color: grey;
+    .card-title {
+      font-size: 1.5rem;
+      color: cadetblue;
+    }
+  }
+  .card-text {
     font-size: 0.9rem;
     color: black;
+  }
 }
-.mochilas1{
-    .card{
-        width: 18rem;
-        background-color: orange;
-        .card-title{
-         font-size: 1.5rem;
-         color: red;
-        }
-         
-     }
-     .card-text{
-         font-size: 0.9rem;
-         color: black;
-     }
+.cards {
+  background-color: gray;
+  width: 20rem;
+  .cards-title {
+    font-size: 1.5rem;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
 }
-.mochilas2{
-    .card{
-        width: 18rem;
-        background-color: gray;
-        .card-title{
-         font-size: 1.5rem;
-         color: white;
-        }
-         
-     }
-     .card-text{
-         font-size: 0.9rem;
-         color: black;
-     }
+.cards-text {
+  font-size: 0.9rem;
+  color: black;
 }
-.footer{
+.mochilas1 {
+  .card {
+    width: 18rem;
+    background-color: orange;
+    .card-title {
+      font-size: 1.5rem;
+      color: red;
+    }
+  }
+  .card-text {
+    font-size: 0.9rem;
+    color: black;
+  }
+}
+.mochilas2 {
+  .card {
+    width: 18rem;
     background-color: gray;
+    .card-title {
+      font-size: 1.5rem;
+      color: white;
+    }
+  }
+  .card-text {
+    font-size: 0.9rem;
+    color: black;
+  }
 }
-.navbar-expand-lg{
-    background-color: gray;
+.footer {
+  background-color: gray;
+}
+.navbar-expand-lg {
+  background-color: gray;
 }
 
-.producto{
-    margin: 2px;
+.producto {
+  margin: 2px;
 }
